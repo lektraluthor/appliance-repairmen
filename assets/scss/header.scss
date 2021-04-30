@@ -1,0 +1,80 @@
+header {
+  position: fixed;
+  width: 100%;
+  height: fit-content;
+  background-color: white;
+  box-shadow: 0 0 4px 0 rgb(46 62 72 / 12%), 0 0 2px 0 rgb(46 62 72 / 12%);
+
+  .navbar {
+    &-brand {
+      margin: 0;
+      padding: 0;
+      img {
+        height: 65px;
+      }
+    }
+
+    &-phone {
+      font-weight: 700;
+      color: $dark-blue;
+      text-decoration: none;
+      transition: all .1s linear;
+      &:hover {
+        color: $blue;
+      }
+    }
+
+    &-book {
+      margin: 0 24px;
+      padding: 12px 24px;
+    }
+
+    &-collapse {
+      position: absolute;
+      top: 80px;
+      right: 0;
+      width: 100%;
+      text-align: center;
+      background-color: #fff;
+      box-shadow: 0 2px 4px 0 rgb(46 62 72 / 12%);
+    }
+
+    &-nav {
+      padding: 20px 20px 30px;
+      .nav-item {
+        .nav-link {
+          padding: 20px;
+          font-weight: 600;
+          color: $dark-blue !important;
+          transition: all .1s linear;
+          &:hover {
+            color: $blue !important;
+          }
+        }
+
+        .dropdown-menu {
+          border: 0;
+          text-align: center;
+          .dropdown-item {
+            color: $dark-blue;
+            font-weight: 600;
+            &:hover {
+              color: $blue;
+              background-color: #fff;
+            }
+          }
+        }
+      } 
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  header {
+    .navbar {
+      &-collapse {
+        width: 24%;
+      }
+    }
+  }
+}
