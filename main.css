@@ -1,3 +1,18 @@
+.advantages {
+  padding: 100px 0;
+  text-align: center;
+}
+.advantages-item img {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 32px;
+}
+.advantages .subtitle {
+  font-size: 0.875rem;
+  max-width: 400px;
+  margin: 0px auto 64px;
+}
+
 html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
 }
