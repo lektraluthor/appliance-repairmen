@@ -5,6 +5,16 @@ body {
   color: $grey;
 }
 
+p {
+  line-height: 1.7;
+}
+
 .btn {
   box-shadow: none !important;
+}
+
+.title {
+  color: $dark-blue;
+  font-size: 2.25rem;
+  font-weight: 700;
 }
