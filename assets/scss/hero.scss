@@ -1,0 +1,28 @@
+// Homepage Hero Sections
+
+.main-hero {
+  position: relative;
+  top: 80px;
+  display: flex;
+  padding: 100px 0;
+  align-items: center;
+  background: rgba(54, 54, 54, .5) url("/assets/images/hero-image.jpg") no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+
+  h1 {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+  }
+}
+
+.hero-list {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  list-style: none;
+  font-size: 1.25rem;
+  line-height: 1.7;
+}
