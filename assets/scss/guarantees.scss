@@ -29,3 +29,28 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .guarantees {
+    .row:nth-child(3) {
+      flex-direction: column-reverse;
+    }
+
+    .row {
+      margin: 0;
+    }
+
+    &-image {
+      margin: 16px 0;
+    }
+    
+  }
+}
+
+@media (max-width: 767px) {
+  .guarantees {
+    &-item {
+      margin: 16px 0;
+    }
+  }
+}

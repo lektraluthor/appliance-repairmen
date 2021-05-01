@@ -159,9 +159,39 @@ header .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
   background-color: #fff;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   header .navbar-collapse {
     width: 24%;
+  }
+}
+@media (max-width: 767px) {
+  header .navbar-brand img {
+    height: 60px;
+  }
+  header .navbar-phone {
+    margin-right: 8px;
+  }
+  header .navbar-book {
+    display: none;
+  }
+  header .navbar-book-inline {
+    display: block !important;
+    padding: 20px;
+    margin: 20px 0 0;
+  }
+  header .navbar-collapse {
+    top: 74px;
+  }
+  header .nav-link, header .dropdown-item {
+    font-size: 1.25rem;
+  }
+}
+@media (max-width: 320px) {
+  header .navbar-brand img {
+    height: 40px;
+  }
+  header .navbar-collapse {
+    top: 56px;
   }
 }
 .main-hero {
@@ -188,13 +218,20 @@ header .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
   line-height: 1.7;
 }
 
+@media (min-width: 1600px) {
+  .main-hero {
+    padding: 280px 0 200px;
+  }
+  .main-hero h1 {
+    font-size: 3.5rem;
+  }
+}
 .offers {
   color: #fff;
   padding: 80px 0;
   background-color: #141957;
 }
 .offers-item {
-  margin: 0 16px;
   text-align: center;
   padding: 56px 0 40px;
   border-radius: 4px;
@@ -208,6 +245,11 @@ header .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
   font-weight: 600;
 }
 
+@media (max-width: 767px) {
+  .offers-item {
+    margin: 16px;
+  }
+}
 .services {
   padding: 100px 0 70px;
 }
@@ -243,7 +285,7 @@ header .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
 }
 .services hr {
   margin: 8px 0 22px;
-  width: 825px;
+  width: 100%;
   border: 1px solid #dee2e6;
 }
 .services h4 {
@@ -284,6 +326,22 @@ header .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
   margin-right: 8px;
 }
 
+@media (max-width: 768px) {
+  .guarantees .row:nth-child(3) {
+    flex-direction: column-reverse;
+  }
+  .guarantees .row {
+    margin: 0;
+  }
+  .guarantees-image {
+    margin: 16px 0;
+  }
+}
+@media (max-width: 767px) {
+  .guarantees-item {
+    margin: 16px 0;
+  }
+}
 .about {
   display: flex;
   padding: 110px 0 80px;
@@ -306,6 +364,14 @@ header .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
   font-weight: 700;
 }
 
+@media (max-width: 768px) {
+  .about .row:nth-child(2) {
+    flex-direction: column-reverse;
+  }
+  .about img {
+    margin-bottom: 16px;
+  }
+}
 .locations {
   padding: 80px 0 100px;
   background-color: #f8f8f8;
@@ -373,6 +439,11 @@ header .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
   margin-top: 16px;
 }
 
+@media (max-width: 768px) {
+  .order-form {
+    margin-bottom: 40px;
+  }
+}
 .advantages {
   padding: 100px 0;
   text-align: center;
@@ -388,6 +459,14 @@ header .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
   margin: 8px auto 64px;
 }
 
+@media (max-width: 768px) {
+  .advantages {
+    padding: 100px 0 60px;
+  }
+  .advantages-item {
+    margin-bottom: 24px;
+  }
+}
 footer {
   padding: 80px 0 50px;
   font-size: 0.875rem;
@@ -432,6 +511,18 @@ footer .copyright a {
 }
 footer .copyright a:hover {
   color: #007bff;
+}
+
+@media (max-width: 767px) {
+  footer {
+    text-align: center;
+  }
+  footer .footer-list {
+    padding: 0;
+  }
+  footer .copyright {
+    flex-direction: column;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

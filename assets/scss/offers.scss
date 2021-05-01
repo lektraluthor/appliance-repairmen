@@ -4,7 +4,6 @@
   background-color: $dark;
 
   &-item {
-    margin: 0 16px;
     text-align: center;
     padding: 56px 0 40px;
     border-radius: 4px;
@@ -18,5 +17,12 @@
     h2, h3 {
       font-weight: 600;
     }
+  }
+}
+
+@media (max-width: 767px) {
+  
+  .offers-item {
+    margin: 16px;
   }
 }

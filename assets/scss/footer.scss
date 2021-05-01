@@ -49,3 +49,17 @@ footer {
     }
   }
 }
+
+@media (max-width: 767px) {
+  footer {
+    text-align: center;
+
+    .footer-list {
+      padding: 0;
+    }
+
+    .copyright {
+      flex-direction: column;
+    }
+  }
+}

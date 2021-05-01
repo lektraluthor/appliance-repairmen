@@ -23,3 +23,15 @@
     font-weight: 700;
   }
 }
+
+@media (max-width: 768px) {
+  .about {
+    .row:nth-child(2) {
+      flex-direction: column-reverse;
+    }
+    
+    img {
+      margin-bottom: 16px;
+    }
+  }
+}

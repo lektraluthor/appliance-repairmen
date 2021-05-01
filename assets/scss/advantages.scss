@@ -16,3 +16,13 @@
     margin: 8px auto 64px;
   }
 }
+
+@media (max-width: 768px) {
+  .advantages {
+    padding: 100px 0 60px;
+
+    &-item {
+      margin-bottom: 24px;
+    }
+  }
+}
