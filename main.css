@@ -317,6 +317,62 @@ header .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
   margin: 40px 0 16px;
 }
 
+.appointment {
+  padding: 120px 0;
+  text-align: center;
+  background: rgba(54, 54, 54, 0.5) url("/assets/images/hero-image.jpg") no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+.appointment h2 {
+  color: #fff;
+  margin-bottom: 80px;
+}
+.appointment h4 {
+  color: #fff;
+  margin: 24px 0;
+  font-weight: 600;
+}
+.appointment img {
+  width: 100%;
+}
+.appointment .order-form {
+  border-radius: 5px;
+  padding: 32px 20px;
+  background-color: #fff;
+}
+.appointment .order-form legend {
+  color: #2b317e;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.appointment .order-form p {
+  color: #2b317e;
+  text-align: start;
+  font-weight: 600;
+  font-size: 1rem;
+  margin: 10px 0 8px 1px;
+}
+.appointment .order-form i {
+  color: red;
+}
+.appointment .order-form .form-check {
+  margin: 0px 8px 5px 5px;
+}
+.appointment .order-form .agreement {
+  text-align: left;
+  font-size: 0.875rem;
+  align-items: flex-start;
+}
+.appointment .order-form .agreement input {
+  margin-top: 5px;
+  margin-right: 8px;
+}
+.appointment .order-form-btn {
+  padding: 16px 40px;
+  margin-top: 16px;
+}
+
 .advantages {
   padding: 100px 0;
   text-align: center;
