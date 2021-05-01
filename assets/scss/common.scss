@@ -23,7 +23,7 @@ body {
 }
 
 p {
-  line-height: 1.7;
+  line-height: 1.5;
 }
 
 .btn {
@@ -34,4 +34,6 @@ p {
   color: $dark-blue;
   font-size: 2.25rem;
   font-weight: 700;
+  max-width: 800px;
+  margin: 0 auto;
 }

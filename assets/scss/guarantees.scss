@@ -1,0 +1,31 @@
+.guarantees {
+  padding: 100px 0 60px;
+  text-align: center;
+  background-color: $light-grey;
+
+  .row {
+    text-align: start;
+    align-items: center;
+    margin: 50px 0;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  &-item {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+
+    p {
+      margin: 0;
+    }
+
+    img {
+      height: 55px;
+      width: 55px;
+      margin-right: 8px;
+    }
+  }
+}

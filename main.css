@@ -23,7 +23,7 @@ body {
 }
 
 p {
-  line-height: 1.7;
+  line-height: 1.5;
 }
 
 .btn {
@@ -34,6 +34,8 @@ p {
   color: #2b317e;
   font-size: 2.25rem;
   font-weight: 700;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 @font-face {
@@ -215,6 +217,9 @@ header .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
   align-items: center;
   text-align: center;
 }
+.services-info p {
+  line-height: 1.6;
+}
 .services-item {
   margin: 8px 0;
   padding: 48px 24px 32px;
@@ -233,7 +238,7 @@ header .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
 .services-item p {
   color: #2b317e;
   font-size: 1.125rem;
-  line-height: 1.5;
+  line-height: 1.4;
   font-weight: 600;
 }
 .services hr {
@@ -244,12 +249,39 @@ header .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
 .services h4 {
   color: #2b317e;
   font-weight: 700;
-  line-height: 1.5;
+  line-height: 1.4;
   max-width: 550px;
-  margin: 24px 0 40px;
+  margin: 24px 0 32px;
 }
 .services .title {
   margin-bottom: 16px;
+}
+
+.guarantees {
+  padding: 100px 0 60px;
+  text-align: center;
+  background-color: #f8f8f8;
+}
+.guarantees .row {
+  text-align: start;
+  align-items: center;
+  margin: 50px 0;
+}
+.guarantees img {
+  width: 100%;
+}
+.guarantees-item {
+  display: flex;
+  align-items: center;
+  margin: 8px 0;
+}
+.guarantees-item p {
+  margin: 0;
+}
+.guarantees-item img {
+  height: 55px;
+  width: 55px;
+  margin-right: 8px;
 }
 
 .about {
@@ -267,8 +299,6 @@ header .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
   width: 100%;
 }
 .about h2 {
-  max-width: 800px;
-  margin: 0 auto;
   padding-bottom: 24px;
 }
 .about h3 {
@@ -288,7 +318,7 @@ header .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
 .advantages .subtitle {
   font-size: 0.875rem;
   max-width: 400px;
-  margin: 0px auto 64px;
+  margin: 8px auto 64px;
 }
 
 footer {

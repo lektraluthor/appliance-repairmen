@@ -6,6 +6,10 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+
+    p {
+      line-height: 1.6;
+    }
   }
 
   &-item {
@@ -25,7 +29,7 @@
     p {
       color: $dark-blue;
       font-size: 1.125rem;
-      line-height: 1.5;
+      line-height: 1.4;
       font-weight: 600;
     }
   }
@@ -39,9 +43,9 @@
   h4 {
     color: $dark-blue;
     font-weight: 700;
-    line-height: 1.5;
+    line-height: 1.4;
     max-width: 550px;
-    margin: 24px 0 40px;
+    margin: 24px 0 32px;
   }
 
   .title {
