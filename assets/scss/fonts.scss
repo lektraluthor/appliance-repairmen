@@ -1,13 +1,13 @@
 @font-face {
 	font-family: 'Proxima Nova';
-	src: url('ProximaNova-Light.woff') format('woff');
+	src: url('/assets/fonts/ProximaNova-Light.woff') format('woff');
 	font-weight: 300;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Proxima Nova';
-	src: url('ProximaNova-LightIt.woff') format('woff');
+	src: url('/assets/fonts/ProximaNova-LightIt.woff') format('woff');
 	font-weight: 300;
 	font-style: italic;
 }
@@ -51,19 +51,5 @@
 	font-family: 'Proxima Nova';
 	src: url('/assets/fonts/ProximaNova-BoldIt.woff') format('woff');
 	font-weight: 700;
-	font-style: italic;
-}
-
-@font-face {
-	font-family: 'Proxima Nova';
-	src: url('ProximaNova-Extrabld.woff') format('woff');
-	font-weight: 800;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Proxima Nova';
-	src: url('ProximaNova-ExtrabldIt.woff') format('woff');
-	font-weight: 800;
 	font-style: italic;
 }
