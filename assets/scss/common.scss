@@ -37,3 +37,52 @@ p {
   max-width: 800px;
   margin: 0 auto;
 }
+
+.nav-toogle {
+  font-size: 25px;
+}
+
+amp-sidebar {
+  padding: 20px;
+  width:20%;
+  background-color: white;
+  color: #2b317e;
+}
+
+@media(max-width:767px) {
+  amp-sidebar {
+    width: 100%;
+  }
+}
+
+.acc-header {
+  font-size:1rem;
+  font-weight:600;
+  background-color: #fff;
+  padding: 15px;
+  border: none;
+}
+
+.acc-content {
+  padding: 15px;
+  font-weight:600;
+}
+
+amp-accordion a {
+  color: #2b317e;
+  text-decoration: none;
+}
+
+hero-item i {
+  font-size: 0.85rem;
+  margin-right: 5px;
+}
+
+.navbar-block {
+  display: flex;
+  align-items: center;
+}
+
+.article h5 {
+  font-size: 1.25rem;
+}
