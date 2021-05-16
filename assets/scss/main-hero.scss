@@ -1,5 +1,4 @@
-.hero {
-  text-align: center;
+.main-hero {
   display: flex;
   padding: 180px 0 100px;
   align-items: center;
@@ -15,8 +14,23 @@
   }
 }
 
+hero-item i {
+  font-size: 0.85rem;
+  margin-right: 5px;
+}
+
+.hero-list {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  list-style: none;
+  font-size: 1.25rem;
+  line-height: 1.7;
+}
+
 @media (min-width: 1600px) {
-  .hero {
+  .main-hero {
+    padding: 280px 0 200px;
 
     h1 {
       font-size: 3.5rem;
