@@ -4,35 +4,6 @@ footer {
   color: rgba(255, 255, 255, 0.7);
   background-color: #0f123f;
 
-  .footer-brand {
-    img {
-      height: 65px;
-      margin-bottom: 16px;
-    }
-  }
-  
-  .footer-phone {
-    color: rgba(255, 255, 255, 0.9);
-    font-weight: 600;
-    text-decoration: none;
-    margin-left: 8px;
-    transition: all .1s linear;
-    &:hover {
-      color: $blue;
-    }
-  }
-
-  .footer-list {
-    list-style: none;
-    li {
-      margin: 10px;
-    }
-  }
-
-  hr {
-    background-color: #22295c;
-    margin: 40px 0 20px 0;
-  }
   .copyright {
     display: flex;
     justify-content: space-between;
@@ -53,10 +24,6 @@ footer {
 @media (max-width: 767px) {
   footer {
     text-align: center;
-
-    .footer-list {
-      padding: 0;
-    }
 
     .copyright {
       flex-direction: column;

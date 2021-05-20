@@ -243,19 +243,9 @@ header .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
   font-weight: 700;
   margin-bottom: 24px;
 }
-
-hero-item i {
-  font-size: 0.85rem;
-  margin-right: 5px;
-}
-
-.hero-list {
-  margin: 0;
-  padding: 0;
+.main-hero p {
   color: #fff;
-  list-style: none;
-  font-size: 1.25rem;
-  line-height: 1.7;
+  font-size: 1.5rem;
 }
 
 @media (min-width: 1600px) {
@@ -417,7 +407,7 @@ hero-item i {
   background-color: #f8f8f8;
   text-align: center;
 }
-.locations h4 {
+.locations h3, .locations h4 {
   color: #2b317e;
   font-weight: 700;
   margin: 40px 0 16px;
@@ -513,30 +503,6 @@ footer {
   color: rgba(255, 255, 255, 0.7);
   background-color: #0f123f;
 }
-footer .footer-brand img {
-  height: 65px;
-  margin-bottom: 16px;
-}
-footer .footer-phone {
-  color: rgba(255, 255, 255, 0.9);
-  font-weight: 600;
-  text-decoration: none;
-  margin-left: 8px;
-  transition: all 0.1s linear;
-}
-footer .footer-phone:hover {
-  color: #007bff;
-}
-footer .footer-list {
-  list-style: none;
-}
-footer .footer-list li {
-  margin: 10px;
-}
-footer hr {
-  background-color: #22295c;
-  margin: 40px 0 20px 0;
-}
 footer .copyright {
   display: flex;
   justify-content: space-between;
@@ -556,9 +522,6 @@ footer .copyright a:hover {
 @media (max-width: 767px) {
   footer {
     text-align: center;
-  }
-  footer .footer-list {
-    padding: 0;
   }
   footer .copyright {
     flex-direction: column;
