@@ -334,7 +334,7 @@ header .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
 
 .about {
   display: flex;
-  padding: 110px 0 80px;
+  padding: 10px 0 80px;
   text-align: center;
   align-items: center;
 }
@@ -349,7 +349,7 @@ header .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
 .about h2 {
   padding-bottom: 24px;
 }
-.about h3 {
+.about h4 {
   color: #2b317e;
   font-weight: 700;
 }
