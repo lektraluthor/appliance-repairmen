@@ -330,7 +330,7 @@ header .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
 .appointment {
   padding: 120px 0;
   text-align: center;
-  background: rgba(54, 54, 54, 0.5) url("/assets/images/hero-image.webp") no-repeat;
+  background: rgba(54, 54, 54, 0.7) url("/assets/images/booking-image.jpeg") no-repeat;
   background-size: cover;
   background-blend-mode: multiply;
 }
