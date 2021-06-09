@@ -260,6 +260,20 @@ header .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
 .article-item {
   align-items: center;
 }
+.article-item-list {
+  display: flex;
+  flex-direction: column;
+}
+.article-item-list a {
+  line-height: 1.7;
+  font-weight: 600;
+  color: #2b317e;
+  text-decoration: none;
+  transition: all 0.1s linear;
+}
+.article-item-list a:hover {
+  color: #007bff;
+}
 .article img {
   width: 100%;
   margin: 20px 0;
