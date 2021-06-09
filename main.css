@@ -236,7 +236,7 @@ header .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
   display: flex;
   padding: 180px 0 100px;
   align-items: center;
-  background: rgba(54, 54, 54, 0.5) url("/assets/images/hero-image.webp") no-repeat;
+  background: rgba(54, 54, 54, 0.5) url("/assets/images/hero-image.webp") bottom center no-repeat;
   background-size: cover;
   background-blend-mode: multiply;
 }
@@ -292,6 +292,7 @@ header .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
 }
 .services {
   padding: 100px 0 70px;
+  background-color: #fff;
 }
 .services-info {
   display: flex;
@@ -342,6 +343,7 @@ header .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
 .about {
   display: flex;
   padding: 10px 0 80px;
+  background-color: #fff;
   text-align: center;
   align-items: center;
 }
@@ -362,7 +364,7 @@ header .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
 }
 
 @media (max-width: 768px) {
-  .about .row:nth-child(2) {
+  .about .row:nth-child(2n) {
     flex-direction: column-reverse;
   }
   .about img {
@@ -444,6 +446,7 @@ header .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
 .advantages {
   padding: 100px 0;
   text-align: center;
+  background-color: #fff;
 }
 .advantages-item img {
   width: 70px;

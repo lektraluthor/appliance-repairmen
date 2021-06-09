@@ -255,6 +255,7 @@ header .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
   display: flex;
   padding: 80px 0 100px;
   align-items: center;
+  background-color: #fff;
 }
 .article-item {
   align-items: center;
@@ -273,6 +274,10 @@ header .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
 
 .article h5 {
   font-size: 1.25rem;
+}
+
+.article h6 {
+  font-size: 1rem;
 }
 
 .locations {
