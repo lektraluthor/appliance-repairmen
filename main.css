@@ -340,6 +340,41 @@ header .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
   margin-bottom: 16px;
 }
 
+.brand-services {
+  padding: 70px 0 0;
+  background-color: #fff;
+}
+.brand-services-item {
+  margin: 8px 0;
+  padding: 48px 24px 32px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  border-radius: 5px;
+  transition: all linear 0.2s;
+}
+.brand-services-item:hover {
+  box-shadow: 0 0 13px 2px rgba(0, 0, 0, 0.13);
+}
+.brand-services-item img {
+  height: 55px;
+  width: 55px;
+}
+.brand-services-item a {
+  display: flex;
+  color: #2b317e;
+  font-size: 1.125rem;
+  line-height: 1.4;
+  font-weight: 600;
+  margin-top: 8px;
+  text-decoration: none;
+  transition: all linear 0.2s;
+}
+.brand-services-item a:hover {
+  color: #007bff;
+}
+
 .about {
   display: flex;
   padding: 10px 0 80px;
